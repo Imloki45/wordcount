@@ -1,7 +1,8 @@
 <h1 align='center'>Word Count</h1>
 <a href="{% url 'about' %}">About this page Click Here!!</a>
 <div align="center">
-<form action="{% url 'co' %}">
+<form action="{% url 'co' %}" method="post">
+  {% csrf_token %}
   <textarea rows='10' cols='45' name="text"></textarea><br><br>
   <input type="submit" value="count">
 </form>
