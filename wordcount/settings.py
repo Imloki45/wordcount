@@ -25,7 +25,7 @@ SECRET_KEY = 'wp3nk@x3eyu8d5zy_&qp%!_g^+zw7&j*nvn^!+@ptw*mc9*bba'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost","loki.pythonanywhere.com"]
 
 
 # Application definition
